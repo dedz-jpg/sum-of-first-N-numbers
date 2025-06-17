@@ -1,29 +1,39 @@
-# Coding Essentials - Logic Building for Beginners
+Descrição do problema
 
-Este repositório contém anotações, explicações e códigos desenvolvidos durante o curso **Coding Essentials - Logic Building for Beginners** da Udemy.
-
----
-
-## Aula: Soma dos primeiros N números (Sum of first N numbers)
-
-### Descrição do problema
-
-Dado um número natural **N**, calcule a soma dos números de 1 até N.
-
-### Exemplo
-
-- N = 4  
-- Saída: 10 (1 + 2 + 3 + 4)
-
-### Código em Python
+Calcular a soma dos números pares entre 1 e N.
+Exemplo
 
 ```python
-N = 4
+N = 12
 soma = 0
 i = 1
 
 while i <= N:
-    soma = soma + i
+    if i % 2 == 0:
+        soma = soma + i
     i = i + 1
 
 print(soma)
+
+
+Conceitos usados
+
+    Variáveis
+
+    Loop while
+
+    Condicional if
+
+    Operador módulo %
+
+    Incremento de variáveis
+
+Como rodar os códigos
+
+    Instale o Python (versão 3.x) na sua máquina.
+
+    Execute o script no terminal ou prompt de comando com:
+
+python nome_do_arquivo.py
+
+Desenvolvido por André Ricardo
